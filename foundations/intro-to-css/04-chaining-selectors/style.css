@@ -1,3 +1,11 @@
+/*
+.a.b  => same element with both classes
+        example: <div class="a b"></div>
+
+.a .b => element .b inside element .a
+        example: <div class="a"><p class="b"></p></div>
+*/
+
 .avatar.proportioned{
     width: 300px
 }

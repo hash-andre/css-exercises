@@ -1,3 +1,5 @@
+/* #id is unique, class has to be reused commonly */
+
 .odd{
     font-family: Verdana, "DejaVu Sans", sans-serif;
     background-color: #ffa7a7;
