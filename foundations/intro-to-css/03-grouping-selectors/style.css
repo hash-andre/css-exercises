@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+.sx-btn,
+.dx-btn{
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.sx-btn{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dx-btn{
+    background-color: #ffff00;
+}
