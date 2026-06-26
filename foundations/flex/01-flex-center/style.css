@@ -1,8 +1,15 @@
+/* Just used flexbox with justify-content: center; 
+   and align-items: center; to center the div
+*/
+
 .container {
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
