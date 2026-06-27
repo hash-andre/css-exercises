@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+  min-width: 320px;
 }
 
 body {
@@ -20,6 +21,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  margin: auto 20px;
+  /* sol */
+  padding: 16px;
+  display: flex;
+  gap: 16px;
 }
 
 .icon {
@@ -34,6 +40,23 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* SOL */
+.icon{
+  flex-shrink: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text{
+  margin: 12px 0;
+}
+/**/
 
 .close-button {
   background: #eee;
@@ -66,4 +89,21 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+@media (max-width: 480px){
+  .modal{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header{
+    justify-content: center;
+  }
+  
+  .close-button{
+    display: none;
+  }
 }
